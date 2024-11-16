@@ -1,0 +1,36 @@
+.NoName {
+  color: red;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 0px -10px;
+  text-align: center;
+  padding: 1px;
+}
+
+
+.navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+display: flex;
+align-items: center;
+gap: 0px 5px 0px 0px;
+width: 80%;
+}
+.containerNav{
+
+padding: 10px;
+    background: #333;
+    color: white;
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+

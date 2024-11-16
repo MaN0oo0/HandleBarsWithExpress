@@ -1,0 +1,14 @@
+<h2>Peoples</h2>
+{{#if people}}
+
+<ul>
+    {{#each people }}
+    {{!-- {{log this}} --}}
+
+    {{#each this as |value key|}}
+
+    <li> {{key}}: {{value}} </li>
+    {{/each}}
+    {{/each}}
+</ul>
+{{/if}}

@@ -1,0 +1,13 @@
+
+<h1>Home Page</h1>
+{{#if isDisplayName}}
+
+<p>Name: <b>{{name}}</b></p>
+{{else}}
+<p class="NoName">No Name Found !!!</p>
+{{/if}}
+
+{{calculation 20}}
+{{#list people}}
+{{firstname}} {{lastname}}
+{{/list}}
